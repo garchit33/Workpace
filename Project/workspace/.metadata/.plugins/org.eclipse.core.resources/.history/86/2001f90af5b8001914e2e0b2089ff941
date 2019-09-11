@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Snacks {
+	
+	public void Types() {
+		
+		System.out.println("1. Samosa");
+		System.out.println("2. Bread Pakora");
+		System.out.println("3. Kachori");
+		
+		Scanner s=new Scanner(System.in);
+		int types = s.nextInt();
+		
+	}
+	}
+
+}

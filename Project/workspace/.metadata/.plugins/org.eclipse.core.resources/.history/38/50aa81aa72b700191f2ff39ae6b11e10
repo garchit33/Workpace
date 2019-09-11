@@ -1,0 +1,18 @@
+
+public class t1 {
+	
+	public void t1method(){
+		
+		int a=5; double b = 8.0; float c = 0.7f; boolean d = true; char e = 'Archit'; 
+		System.out.println("t1 method invoked");
+		t2 obj3=new t2();
+		obj3.t2method();
+		System.out.println(a+" "+b+" "+c+" "+d+" "+e);
+		
+	}
+
+}
+
+
+
+

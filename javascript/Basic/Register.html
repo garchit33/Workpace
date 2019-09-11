@@ -1,0 +1,37 @@
+
+<body><FORM NAME="everything">  <!-- A one-of-everything HTML form... -->
+ <TABLE BORDER CELLPADDING=2>   <!-- ...in a big HTML table -->
+   <TR><TD>Name:</TD> <TD><INPUT TYPE=text id="name1" value=""></TD></TR>
+   <TR><TD>Age:</TD> <TD><INPUT TYPE=number id="age" SIZE=30></TD></TR>
+     <TR><TD align=center valign=center>Select Course:</TD>
+       <TD><SELECT id="course">
+         <OPTION VALUE="BTech.">BTech
+        <OPTION VALUE="MTech">MTech
+        <OPTION VALUE="BCA">BCA
+         <OPTION VALUE="MCA">MCA
+       </SELECT></TD></TR>
+
+    <TR> <TD>Gender:</TD><TD>
+         <INPUT TYPE=radio id="gender" VALUE="Male">Male
+         <INPUT TYPE=radio id="gender" VALUE="Female">Female
+         <INPUT TYPE=radio id="gender" VALUE="Other">Other</TD></TR>
+
+        <TR>    <TD>Languages:</TD> <TD>
+             <INPUT TYPE=checkbox id="lang" VALUE="hindi">Hindi
+             <INPUT TYPE=checkbox id="lang" VALUE="english">English
+             <INPUT TYPE=checkbox id="lang" VALUE="french">French
+             <INPUT TYPE=checkbox id="lang" VALUE="german">German</TD></TR>
+<TR><TD>About:</TD> <TD><INPUT TYPE='textarea' id="about" ></TD></TR>
+<TR><TD><button type="Submit" onclick="f(name1,age,course,gender,lang,about)" >Submit</Button></TD><TD></TD></TR></TABLE></FORM>
+<script language="JavaScript" type="text/javascript">
+function f(name1,age,course,gender,lang,about)
+{
+  var naam=document.getElementById("name1").value;
+  var umar=document.getElementById("age").value;
+  var course1=document.getElementById("course").value;
+  var ling=document.getElementById("gender").value;
+  var bhasha=document.getElementById("lang").value;
+  var bio=document.getElementById("about").value;
+  document.write(naam+"<br>"+umar+"<br>"+course1+"<br>"+ling+"<br>"+bhasha+"<br>"+bio+"<br>");
+}
+</script></body>

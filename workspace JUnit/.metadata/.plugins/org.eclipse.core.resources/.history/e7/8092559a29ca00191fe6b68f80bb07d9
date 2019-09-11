@@ -1,0 +1,7 @@
+
+public class TestExample{
+
+public int ADDInts(int x, int y) {
+	return x+y;
+}
+}

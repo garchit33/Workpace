@@ -1,0 +1,29 @@
+
+public class Student {
+
+	/**
+	 * @param args
+	 */
+	int stid = 11;
+	String name = "Archit";
+	
+	public Student(){
+		
+		System.out.println("First Constructor");
+	}
+	public Student(int st, String name){
+		
+		this.stid=st;
+		this.name=name;
+		System.out.println(st);
+	}
+	public static void main(String[] args) {
+		
+		Student s1 = new Student();
+		System.out.println(s1.stid);
+		System.out.println(s1.name);
+		// TODO Auto-generated method stub
+
+	}
+
+}

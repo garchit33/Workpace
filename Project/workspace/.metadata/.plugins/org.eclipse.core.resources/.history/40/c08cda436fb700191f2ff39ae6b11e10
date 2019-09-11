@@ -1,0 +1,11 @@
+
+public class t1 {
+	
+	public void t1method(){
+		
+		System.out.println("t1 method invoked");
+		t2 obj2=new t2();
+		obj2.t2method();
+	}
+
+}

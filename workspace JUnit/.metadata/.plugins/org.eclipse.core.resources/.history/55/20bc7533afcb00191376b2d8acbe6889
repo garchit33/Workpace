@@ -1,0 +1,17 @@
+
+public class ExceptionThrowsEx {
+	
+	public static int Divide() throws ArithmeticException
+	{
+		return 10/2;
+	}
+	public static void main(String args[]) {
+		
+		try {
+			Divide();
+		}catch(ArithmeticException e) {
+			e.printStackTrace();
+		}
+		
+	}
+}

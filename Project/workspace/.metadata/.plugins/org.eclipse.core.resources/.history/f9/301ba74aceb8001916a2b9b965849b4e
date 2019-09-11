@@ -1,0 +1,11 @@
+
+public interface FlyingVehicle {
+	
+	default public void wings() {
+		
+		System.out.println("HEy");
+	}
+
+}
+
+// default keyword can be use to implement interface in new version.

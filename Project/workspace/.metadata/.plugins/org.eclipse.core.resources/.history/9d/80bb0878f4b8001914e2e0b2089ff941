@@ -1,0 +1,28 @@
+import java.util.Scanner;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		
+	
+		System.out.println("\t\t******MENU******");
+		System.out.println("\t\t1. Snacks");
+		System.out.println("\t\t2. Lunch");
+		System.out.println("\t\t3. Tea");
+		System.out.println("\t\t4. Coffee");
+		System.out.println("\t\t5. Juices");
+
+		Scanner s = new Scanner(System.in);
+		int choice = s.nextInt();
+		
+		switch(choice) {
+		
+		case 1:
+			System.out.println("\t\tChoose What you want");
+			System.out.println("");
+		}
+		
+		
+	}
+
+}

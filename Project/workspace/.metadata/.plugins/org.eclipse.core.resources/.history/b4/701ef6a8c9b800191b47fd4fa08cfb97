@@ -1,0 +1,9 @@
+
+public interface Interface_newFeature {
+	
+	default void implement(String str){
+		
+		System.out.println("Interface invoked"+str);
+	}
+
+}

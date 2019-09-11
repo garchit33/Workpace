@@ -1,0 +1,39 @@
+import java.util.Scanner;
+
+public class Main {
+	
+	public static void main(String[] args) {
+		
+	
+		System.out.println("\t\t******MENU******");
+		System.out.println("\t\t1. Snacks");
+		System.out.println("\t\t2. Lunch");
+		System.out.println("\t\t3. Tea");
+		System.out.println("\t\t4. Coffee");
+		System.out.println("\t\t5. Juices");
+
+		Scanner s = new Scanner(System.in);
+		int choice = s.nextInt();
+		
+		switch(choice) {
+		
+		case 1:
+			System.out.println("1. Samosa");
+			System.out.println("2. Bread Pakora");
+			System.out.println("3. Kachori");
+			int ch = s.nextInt();
+			
+			switch(ch) {
+			
+			case 1: samosa.price;
+			}
+		}
+		
+		Samosa samosa=new Samosa();
+		
+		
+		
+		
+	}
+
+}

@@ -1,0 +1,25 @@
+import java.util.ArrayList;
+import java.util.Iterator;
+import java.util.List;
+
+public class ArrayListExample1 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		List<String> list = new ArrayList<>();
+		
+		list.add("Archit");
+		list.add("Anupam");
+		list.add("Sumit");
+		list.add("Prince");
+		list.add("Rishabh");
+		
+		Iterator itr = list.iterator();
+		while(itr.hasNext()) {
+			System.out.println("The list of Students is : "+itr.next());
+		}
+
+	}
+
+}

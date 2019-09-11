@@ -1,0 +1,57 @@
+MySQL aggregate functions
+MySQL aggregate functions – provide a brief overview of the most commonly used MySQL aggregate functions
+AVG – calculate the average value of a set of values or an expression.
+COUNT – count the number of rows in a table.
+INSTR – return the position of the first occurrence of a substring in a string.
+SUM – calculate the sum of a set of values or an expression.
+MIN – find the minimum value in a set of values
+MAX – find the maximum value in a set of values
+GROUP_CONCAT – concatenate strings from a group into a string with various options such as DISTINCT, ORDER BY, and SEPARATOR.
+MySQL standard deviation functions – shows you how to compute population standard deviation and sample standard deviation.
+MySQL string functions
+CONCAT – combine two or more strings into one string.
+LENGTH & CHAR_LENGTH – get the length of strings in bytes and in characters.
+LEFT – get the left part of a string with a specified length.
+REPLACE – search and replaces a substring in a string.
+SUBSTRING –  extract a substring starting from a position with a specific length.
+TRIM – remove unwanted characters from a string.
+FIND_IN_SET – find a string within a comma-separated list of strings.
+FORMAT – format a number with a specific locale, rounded to the number of decimals
+MySQL control flow functions
+CASE – return the corresponding result in THEN branch if the condition in the WHEN branch is satisfied, otherwise return the result in the ELSE branch.
+IF – return a value based on a given condition.
+IFNULL– return the first argument if it is not NULL, otherwise returns the second argument.
+NULLIF– return NULL if the first argument is equal to the second argument, otherwise, returns the first argument.
+MySQL date and time functions
+CURDATE – return the current date.
+DATEDIFF – calculate the number of days between two  DATE values.
+DAY – get the day of the month of a specified date.
+DATE_ADD – add a time value to date value.
+DATE_SUB – subtract a time value from a date value.
+DATE_FORMAT – format a date value based on a specified date format.
+DAYNAME –  get the name of a weekday for a specified date.
+DAYOFWEEK – return the weekday index for a date.
+EXTRACT –  extract part of a date.
+NOW – return the current date and time at which the statement executed.
+MONTH– return an integer that represents a month of a specified date.
+STR_TO_DATE – convert a string into a date and time value based on a specified format.
+SYSDATE – return the current date.
+TIMEDIFF – calculate the difference between two TIME or DATETIME values.
+TIMESTAMPDIFF – calculate the difference between two DATE or DATETIME values.
+WEEK – return a week number of a date.
+WEEKDAY – return a weekday index for a date.
+YEAR – return the year part of a date value.
+MySQL comparison functions
+COALESCE – return the first non-null arguments, which is very handy for substitution of null.
+GREATEST & LEAST – take n arguments and return the greatest and least values of the n arguments respectively.
+ISNULL – return 1 if the argument is null, otherwise return zero.
+MySQL Math functions
+ABS –  return the absolute value of a number.
+CEIL –  return the smallest integer value greater than or equal to the input number.
+FLOOR – return the largest integer value not greater than the argument.
+MOD – return the remainder of a number divided by another.
+ROUND – rounds a number to a specified number of decimal places.
+TRUNCATE – truncate a number to a specified number of decimal places.
+Other MySQL functions
+LAST_INSERT_ID – obtain the last generated sequence number of the last inserted record.
+CAST – convert a value of any type into a value with a specified type.

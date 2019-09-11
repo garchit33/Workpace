@@ -1,0 +1,22 @@
+<script>
+class Employee{
+
+constructor(firstName,lastName)
+{
+this.firstName=firstName;
+this.lastName=lastName;
+}
+//Getter
+get Name()
+{
+  return this.FullName();
+}
+FullName()
+{
+  return this.firstName + ' '+ this.lastName;
+}
+
+}
+const fullname=new Employee('Satish','Sood');
+console.log(fullname);
+</script>

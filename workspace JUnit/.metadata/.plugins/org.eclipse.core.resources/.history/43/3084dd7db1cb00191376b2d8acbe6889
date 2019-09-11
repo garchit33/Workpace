@@ -1,0 +1,18 @@
+
+public class ExceptionThrowExample {
+
+	public static int Divide(int a) 
+	{
+		return a;
+	}
+	public static void main(String args[]) {
+		
+		try {
+			System.out.println(Divide(10/2));
+				throw new ArithmeticException("Not Valid Input");
+		}catch(ArithmeticException e) {
+			e.printStackTrace();
+		}
+	
+	}
+}
